@@ -60,9 +60,6 @@ export default function TextForm(props) {
       <div className="container my-3">
         <h2>Your text summary</h2>
         <p>
-        {/* ,jhdjkhf */}
-        {/* ,hello */}
-        {/* ,hello */}
         {text.trim() === "" ? 0 : text.trim().split(" ").length} words and{" "}
           <span style={{ color: "Tomato" }}>
             ({0.008 * text.split("").length} Minutes Read )

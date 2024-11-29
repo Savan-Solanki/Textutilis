@@ -62,6 +62,7 @@ export default function TextForm(props) {
         <p>
         {/* ,hello */}
         {/* ,hello */}
+        {/* ,hello */}
         {text.trim() === "" ? 0 : text.trim().split(" ").length} words and{" "}
           <span style={{ color: "Tomato" }}>
             ({0.008 * text.split("").length} Minutes Read )

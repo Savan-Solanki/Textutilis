@@ -60,7 +60,7 @@ export default function TextForm(props) {
       <div className="container my-3">
         <h2>Your text summary</h2>
         <p>
-        {/* ,hello */}
+        {/* ,jhdjkhf */}
         {/* ,hello */}
         {/* ,hello */}
         {text.trim() === "" ? 0 : text.trim().split(" ").length} words and{" "}
